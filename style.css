@@ -5,3 +5,9 @@ body {
     color: white;
     margin: 0;
 }
+
+/* Tirar as bordas "de planilha" */
+table, td {
+    border: none;
+    border-collapse: collapse;
+}
